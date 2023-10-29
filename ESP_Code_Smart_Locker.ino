@@ -66,12 +66,12 @@ void getpass() {
   tempchr[0] = '\0';
   tempstr = "USERID";
 
-  WIFI_NAME = "Harry";
+  WIFI_NAME = "your_wifi_name";
   WIFI_PASSWORD = NULL;
   tempchr[0] = '\0';
   tempstr = "PASSWORD";
 
-  WIFI_PASSWORD = "#pass123#";
+  WIFI_PASSWORD = "your_wifi_password";
 }
 //The connectwifi() function essentially starts by printing a message indicating the network it's connecting to, then calls getpass() 
 //to set the Wi-Fi credentials, and finally enters a loop that continuously checks the Wi-Fi connection status.
